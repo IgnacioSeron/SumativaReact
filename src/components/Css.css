@@ -8,3 +8,20 @@
     margin-bottom: 1rem;
     margin-left: 10.5rem;
 }
+.Agregar {
+    width: 15rem;
+    margin-left: 10rem;
+    background-color: #111;
+    color: white;
+}
+.Titulo {
+    margin-left: 10.5rem;
+    width: 15rem;
+}
+.Descripcion {
+    width: 22rem;
+    margin-left: 2rem;
+}
+.Check {
+    margin-left: 2rem;
+}
