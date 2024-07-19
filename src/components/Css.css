@@ -1,0 +1,10 @@
+.Main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #666;
+}
+.h1 {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10.5rem;
+}
