@@ -24,7 +24,7 @@ function App() {
                     <div className="ListaNotas">
                         {notas.map((nota, index) => (
                             <PostIt key={index} nota={nota} eliminarNota={() => elimianarNota(index)} />
-                        ))};
+                        ))}
                     </div>
                 </div>
         </div>

@@ -25,3 +25,44 @@
 .Check {
     margin-left: 2rem;
 }
+/*Se le Da Estructura a la Nota Normal*/
+.nota {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    background-color: #FFFFCC;
+    color:#111;
+}
+/*Se le Da Estructura al Botón*/
+.boton {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+/*Se le Da Estructura a la Nota Importante*/
+.nota.importante {
+    background-color: #EC7063;
+    color: #111;
+}
+.ContenedorNotas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+.ListaNotas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70rem;
+}
+.ListaNotas .nota {
+    flex: 0 0 calc(25% - 1.25rem); 
+    margin: 0.625rem;
+    height: 15rem;
+}
